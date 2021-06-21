@@ -3,7 +3,7 @@ export default function TextInput({
   inputValue = 'Descrição do campo:',
   onInputChange = null,
   id = 'id_input_text',
-  autoFocus,
+  autoFocus = false,
 }) {
   function handleInputChange({ currentTarget }) {
     if (onInputChange) {
